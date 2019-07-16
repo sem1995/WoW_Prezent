@@ -1,0 +1,261 @@
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: 'Fredoka One', monospace;
+}
+
+/* MENU */
+.header{
+    position: fixed;
+    z-index: 2;
+    top:0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    border-bottom: 4px rgb(160,213,205) solid;
+    
+}
+
+.header_img{
+    width: 50%;
+    padding: 5px 0px 5px 50px;
+    
+}
+
+.nav_link{
+    width: 60%;
+    text-align: center;
+    color: black;
+    padding: 10px 50px;
+    justify-content: center;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Fredoka One', monospace;
+    font-size: 20px;
+    padding-right: 25px;
+    
+}
+
+#submit_menu{
+    text-align:center;
+    font-weight: bold;
+    text-align-last: center;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: white;
+    color:rgb(27,27,27);
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    
+    display: inline-block;
+    
+    border-width: 4px;
+    border-color: rgb(160,213,205);
+    border-style: solid;
+    border-radius:50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px
+}
+
+#submit_menu:hover{
+    background-color: #3787f1;
+    color: white;
+}
+
+
+
+/* COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONTENT*/
+
+.content{
+    margin-top: 13%;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: white;
+    
+}
+
+.title_page{
+    text-align:center;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#email{
+    text-align:center;
+}
+
+#submit{
+    text-align:center;
+    font-weight: bold;
+    text-align-last: center;
+    font-weight: 700;
+    font-family: 'Fredoka One', monospace;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    
+    display: inline-block;
+    
+    border-width: 4px;
+    border-color: rgb(160,213,205);
+    border-style: solid;
+    border-radius:50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 13px;
+}
+
+#submit:hover{
+    background-color:#3787f1;
+    color: white;
+    
+}
+
+/* -------------------SLIDER DESCRIPTION--------------*/
+
+#slider-wrap{
+  
+}
+
+
+#description{
+    margin-top: 40px;
+ }
+
+#description_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:30px;
+    padding: 5px;
+}
+
+#description_picture{
+    width:10%;
+    justify-content: center;
+    
+}
+
+#description_text{
+    width:90%;
+    justify-content: flex-start;
+}
+
+/* -------------P R I C E-B L O C K-----------*/
+
+#price_blocks{
+    margin-top: 7%;
+    margin-bottom:7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#price_block_1{
+    width: 25%;
+    height: 300px;
+    border: 2px rgb(160,213,205) solid;
+}
+
+#price_block_2{
+    width: 25%;
+    height: 300px;
+    border: 2px rgb(160,213,205) solid;
+    margin-left: 8%;
+}
+
+#price_block_3{
+    width: 25%;
+    height: 300px;
+    border: 2px rgb(160,213,205) solid;
+    margin-left: 8%;
+}
+
+/* ---------------- F O O T E R ------------- */
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 4px rgb(160,213,205) solid;
+    height: auto;
+    justify-content: flex-start;
+    
+}
+
+.name_and_copywrite{
+    margin-left: 5% ;
+    width: 35%;
+    text-align: left;
+    height: auto;
+    font-family: 'Fredoka One', monospace;
+    }
+
+.social_media{
+    width: 20%;
+    text-align: center;
+    padding-top: 2px;
+    align-content: center;
+    font-family: 'Fredoka One', monospace;
+}
+
+
+.social_media i{
+    font-size: 25px;
+}
+
+i:hover{
+    color: #3787f1;
+    
+}
+
+.contact_button{
+    font-family: 'Fredoka One', monospace;
+    
+    margin-left: 20%;
+    border-width: 4px;
+    border-color: rgb(160,213,205);
+    border-style: solid;
+    border-radius:50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    margin-bottom: 13px;
+    
+}
+
+.contact_button:hover{
+    background-color:#3787f1;
+    color: white;
+}
+
+
+
